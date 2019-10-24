@@ -24,10 +24,11 @@ During this phase of exploratory data analysis we discovered that there are comm
 
 We then built 4 models:
 
-Count Vectorizer with Naive Bayesian's MultinomialNB
-Tfidf Vectorizer with Naive Bayesian's MultinomialNB
-Count Vectorizer with Logistics Regression
-Tfidf Vectorizer with Logistics Regression
+- Count Vectorizer with Naive Bayesian's MultinomialNB
+- Tfidf Vectorizer with Naive Bayesian's MultinomialNB
+- Count Vectorizer with Logistics Regression
+- Tfidf Vectorizer with Logistics Regression
+
 and found out that the Count Vectorizer with Naive Bayesian's MultinomialNB model which has a score of 78.05% in our test data answers our business problem the best as it is not overfitted and has the best precision.
 
 # Conclusion
